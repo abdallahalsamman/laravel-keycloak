@@ -1,0 +1,29 @@
+{
+    "name": "abdallahalsamman/keycloak-integration",
+    "description": "Laravel package for Keycloak integration.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdallah Alsamman",
+            "email": "sammanabdallah@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KeycloakIntegration\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0",
+        "illuminate/routing": "^8.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KeycloakIntegration\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
+
